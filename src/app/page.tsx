@@ -7,6 +7,7 @@ import { ProductShowcase } from "@/components/ProductShowcase";
 import { FAQs } from "@/components/FAQs";
 import { CallToAction } from "@/components/CallToAction";
 import { Footer } from "@/components/Footer";
+import { Multiple } from "@/components/Multiple";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <FAQs />
       <CallToAction />
       <Footer />
+      <Multiple/>
     </>
   );
 }
